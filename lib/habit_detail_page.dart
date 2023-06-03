@@ -24,7 +24,7 @@ class HabitDetailPage extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => ProgressTrackingPage(habit: habit),
+                  builder: (context) => HabitProgressPage(habit: habit),
                 ),
               );
             },
